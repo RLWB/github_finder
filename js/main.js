@@ -46,11 +46,11 @@ $(document).ready(function(){
           </div>
           <div class="panel-body">
             <div class="row">
-              <div class="col-md-3">
+              <div class="col-md-3 col-xs-3">
                 <img class="thumbnail avatar" src="${user.avatar_url}">
                 <a target="_blank" class="btn btn-primary btn-block" href="${user.html_url}">View Profile</a>
               </div>
-              <div class="col-md-9">
+              <div class="col-md-9 col-xs-9">
               <span class="label label-default">Public Repos: ${user.public_repos}</span>
               <span class="label label-primary">Public Gists: ${user.public_gists}</span>
               <span class="label label-success">Followers: ${user.followers}</span>
